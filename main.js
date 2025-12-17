@@ -22,7 +22,17 @@ setInterval(displayTime, 1000);
 
 /*
 Note:
-For Hours Rotation Calculation:
-12 hours = 360 deg
-1 hour = 
+===== For Hours Rotation Calculation: =====
+12 hours = 360deg
+1 hour = (360/12)deg = 30deg
+
+==== For Minutes Hour's Bar will Forward to =====
+60min = 30deg
+1 min = (30/60)deg
+m min = (1/2)m deg
+
+So, h hours = 30h + (m/2)deg;
+
+
+
 */
