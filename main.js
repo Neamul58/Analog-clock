@@ -10,7 +10,7 @@ function displayTime() {
     let ss = date.getSeconds();
     
     let hrRotation = 30*hh + mm/2;
-    let minRotation = 6*mm;
+    let minRotation = 6*mm + ss/10;
     let secRotation = 6*ss;
     
     hr.style.transform = `rotate(${hrRotation}deg)`;
@@ -19,3 +19,10 @@ function displayTime() {
 }
 
 setInterval(displayTime, 1000);
+
+/*
+Note:
+For Hours Rotation Calculation:
+12 hours = 360 deg
+1 hour = 
+*/
